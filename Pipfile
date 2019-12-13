@@ -5,12 +5,14 @@ verify_ssl = true
 
 [dev-packages]
 pylint = "*"
+flake8 = "*"
 
 [packages]
 flask = "*"
 flask-sqlalchemy = "*"
 flask-marshmallow = "*"
 marshmallow-sqlalchemy = "*"
+pylint-flask-sqlalchemy = "*"
 
 [requires]
 python_version = "3.6"
